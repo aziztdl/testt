@@ -1,0 +1,8 @@
+parameters:
+#    ecommerce.example.class: Ecommerce\EcommerceBundle\Example
+
+services:
+    tva:
+      class: Ecommerce\Ecommercebundle\Twig\Extension\TvaExtension
+      tags:
+        - { name: twig.extension }
